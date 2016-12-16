@@ -1,0 +1,16 @@
+mwarner2015:~/workspace (master) $ git add .
+mwarner2015:~/workspace (master) $ git commit -m "First commit"
+[master f7412b4] First commit
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 Main
+mwarner2015:~/workspace (master) $ git push -u origin master
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 328 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:mwarner2015/Python
+   8e0899a..f7412b4  master -> master
+Branch master set up to track remote branch master from origin.
+mwarner2015:~/workspace (master) $ 
