@@ -1,1 +1,24 @@
-print("hello world")
+player_1 = raw_input("Input ")
+player_2 = raw_input("Input ")
+
+if player_1 == player_2:
+    print("redo")
+    
+if (player_1 == "rock" and player_2 == "paper"):
+    print("Player_2 Wins")
+    
+if (player_1 == "rock" and player_2 == "scissors"):
+    print("Player_1 Wins")
+    
+if (player_1 == "paper" and player_2 == "rock"):
+    print("Player_1 Wins")
+    
+if (player_1 == "paper" and player_2 == "scissors"):
+    print("Player_2 Wins")
+    
+if (player_1 == "scissors" and player_2 == "paper"):
+    print("Player_1 Wins")
+    
+if (player_1 == "scissors" and player_2 == "rock"):
+    print("Player_2 Wins")
+

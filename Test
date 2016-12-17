@@ -1,0 +1,7 @@
+array = "I am Awesome"
+arr_count = 0
+
+for letters in array:
+    arr_count = arr_count + 1
+    print(letters , arr_count )
+    
